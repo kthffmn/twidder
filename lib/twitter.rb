@@ -1,9 +1,4 @@
-require "./color.rb"
-require "./mistakes.rb"
-require "./scraper.rb"
-require "./tweeter.rb"
-
-class 
+class Twitter
 	attr_accessor :tweets, :urls, :tweeters, :my_url, :my_tweet
 
 	def initialize
@@ -37,7 +32,7 @@ class
     def get_info
     	person = select_tweeter
     	perons_url = person.url
-    	@my_url = "www.twitter.com" + perons_url
+    	@my_url = "http://www.twitter.com" + perons_url
     	@my_tweet = person.tweet
     end
 

@@ -15,7 +15,7 @@ class Mistake
 		"out in pubic", "misspell", 
 		"its wierd", "ur so dum", "stewpid",
 		"itiot", "in america we speak american",
-		"learn american language", "ritarded",
+		"ritarded",
 		"retarted", "ritarted", "fucking moreon",
 		"I'm a genious", "expurt opinion",
 		"so wize", "have a nack for", "u r so dum"
@@ -28,7 +28,7 @@ class Mistake
 	def get_url
 		my_sample = MISTAKES.sample
 		mistake = my_sample.gsub(" ", "%20")  
-		"https://twitter.com/search?q="+mistake+"&src=typd&f=realtime"
+		"https://twitter.com/search?q=%22"+mistake+"%22&src=typd&f=realtime"
 	end
 
 end

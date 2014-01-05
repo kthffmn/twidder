@@ -1,14 +1,19 @@
-require "./lib/twitter.rb"
 require "./lib/color.rb"
+require "./lib/twitter.rb"
+require "./lib/mistakes.rb"
+require "./lib/scraper.rb"
+require "./lib/tweeter.rb"
+require "bundler"
 Bundler.require
 
-class EmergencyCompliments < Sinatra::Application
+class App < Sinatra::Application
 
 	get '/' do
+		@color = Color.new
 		my_twitter = Twitter.new
 		my_twitter.get_info
-		
-		@color = Color.new.rando
+		@this_url = my_twitter.my_url
+		@this_tweet = my_twitter.my_tweet
 		erb :index
 	end
 

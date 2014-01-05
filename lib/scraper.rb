@@ -18,11 +18,3 @@ class Scraper
     end
 
 end
-
-# new_scraper = Scraper.new("https://twitter.com/search?q=%22its%20wierd%22&src=typd&f=realtime")
-# puts "urls: "
-# my_urls = new_scraper.get_urls
-# puts my_urls.inspect
-# puts "tweets: "
-# my_tweets = new_scraper.get_tweets
-# puts my_tweets.inspect
