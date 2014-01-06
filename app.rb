@@ -9,7 +9,7 @@ Bundler.require
 class App < Sinatra::Application
 
 	get '/' do
-		@color = Color.new
+		@color = Color.new.my_color
 		my_twitter = Twitter.new
 		my_twitter.get_info
 		@this_url = my_twitter.my_url

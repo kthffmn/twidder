@@ -3,9 +3,9 @@ class Twitter
 
 	def initialize
 		new_mistake = Mistake.new
-		my_scarper = Scraper.new(new_mistake.get_url)
-		@tweets = my_scarper.get_tweets
-		@urls = my_scarper.get_urls
+		my_scraper = Scraper.new(new_mistake.get_url)
+		@tweets = my_scraper.get_tweets
+		@urls = my_scraper.get_urls
 		@tweeters = []
 	end
 
@@ -31,8 +31,8 @@ class Twitter
 
     def get_info
     	person = select_tweeter
-    	perons_url = person.url
-    	@my_url = "http://www.twitter.com" + perons_url
+    	persons_url = person.url
+    	@my_url = "http://www.twitter.com" + persons_url
     	@my_tweet = person.tweet
     end
 
