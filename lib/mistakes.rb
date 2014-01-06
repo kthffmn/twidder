@@ -1,16 +1,22 @@
 class Mistake
-	attr_writer :url
+	attr_accessor :error
 	MISTAKES = [
 		"a moaron",
+		"a bidch",
+		"a beaver damn",
+		"asswhole",
 		"are so gullable",
 		"astro projection",
+		"bastart",
 		"be stupit",
+		"dooshbag",
 		"expurt opinion",
 		"fatheres",
 		"foothpath",
 		"fucking moreon",
 		"geniune",
 		"good can judge me",
+		"hight IQ",
 		"hunny nut",
 		"I'm a genious",
 		"i'm smartt",
@@ -18,35 +24,42 @@ class Mistake
 		"itiot",
 		"mindgrain",
 		"misspell",
+		"love peenut butter",
 		"no regerets",
 		"out in pubic",
 		"retarted",
-		"ritarded",
 		"ritarted",
+		"sitty day",
 		"so wize",
 		"stoopid fag",
+		"the shapest",
 		"the worse attitude",
 		"the worse thing",
 		"u r so dum",
 		"ur so dum",
 		"ur stewpid",
 		"ur a faget",
+		"ur just made",
+		"very thoughfull",
 		"wear a candom",
 		"whats happending",
 		"wondering around the streets",
-		"you looser",
+		"ur a looser",
 		"your in america",
 		"your public hair",
-		"your so boring"
+		"you should cum over on",
+		"your just made",
+		"youre just made",
+		"your a faget",
+		"youre a faget"
 		]
 
 	def initialize
-		@url = ""
+		@error = MISTAKES.sample
 	end
 
 	def get_url
-		my_sample = MISTAKES.sample
-		mistake = my_sample.gsub(" ", "%20")  
+		mistake = error.gsub(" ", "%20")  
 		"https://twitter.com/search?q=%22"+mistake+"%22&src=typd&f=realtime"
 	end
 
