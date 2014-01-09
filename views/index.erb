@@ -1,11 +1,14 @@
-<h1>twidder</h1>
+<img class="center" src="../img/medium_logo.png" alt="Twidder Logo" />
 <h2>classic eras in the digital error</h2>
+
 <h3>searched for: <%= @error %></h3>
 
-<blockquote class="twitter-tweet" lang="en">
-	<p><%= @this_tweet %></p>
-	<a href=<%= @this_url %>>link</a>
-</blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="tweet" align="center">
+	<blockquote class="twitter-tweet" lang="en">
+		<p><%= @this_tweet %></p>
+		<a href=<%= @this_url %>>link</a>
+	</blockquote>
+	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
-<h3 class="refresh"><a href="/">more</a></h3>
+<p class="refresh"><a href="/" class="btn btn-primary btn-large">more</a></p>

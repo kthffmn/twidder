@@ -1,62 +1,45 @@
-/* Twitter Colors */
-/* light blue: BAD6E7; */
-/* middle blue: 9FC4DA; */
-/* dark blue: 87B3CF; */
+/* my bottom color rgb(71, 93, 106) */
+/* my top color rgb(8, 26, 47)*/
 
-.color1 {
-  color: #6F83DE;
-  background-color: #AFEEEE;
-}
-.color2 {
-  color: white;
-  background-color: #66CDAA;
-}
-.color3 {
-  color: white;
-  background-color: #20B2AA;
-}
-.color4 {
-  color: white;
-  background-color: #008080;
-}
-.color5 {
-  color: white;
-  background-color: #6A5ACD;
-}
-.color6 {
-  color: white;
-  background-color: #48D1CC;
-}
-.color7 {
-  color: white;
-  background-color: #D398FB;
-}
-.color8 {
-  color: white;
-  background-color: #FF99CC;
-}
-.color9 {
-  color: white;
-  background-color: #99CCFF;
-}
-.color10 {
-  color: white;
-  background-color: #9999CC;
-}
-.color11 {
-  color: white;
-  background-color: #6666CC;
-}
-.color12 {
-  color: white;
-  background-color: #33FFCC;
-}
-.color13 {
-  color: white;
-  background-color: #33CC99;
-}
-.color14 {
-  color: white;
-  background-color: #009933;
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+H2 { 
+  text-align: center;
+  font-size: 2.15em; 
+  line-height: 1em;
+}
+
+H3 { 
+  padding-top: 4%;
+  text-align: center 
+}
+
+P {
+  text-align: center;
+  font-size: 2.15em;
+}
+
+body {
+  font-family: 'Montserrat', 'Helvetica', 'Ariel', sans-serif;
+  color: #D0D0D0;
+/*  background-color: rgb(8, 26, 47);*/
+  background-image:url("/img/background.png");
+  background-repeat:no-repeat;
+  background-color: rgba(68, 90, 102, .89)
+}
+
+.tweet {
+    display: block;
+    margin: 0 auto;
+}
+
+a:link {color:#D0D0D0;}      /* unvisited link */
+a:visited {color:#D0D0D0;}  /* visited link */
+a:hover {color:#D0D0D0;}  /* mouse over link */
+a:active {color:#D0D0D0;} 

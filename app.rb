@@ -1,4 +1,3 @@
-require "./lib/color.rb"
 require "./lib/twitter.rb"
 require "./lib/mistakes.rb"
 require "./lib/scraper.rb"
@@ -9,7 +8,6 @@ Bundler.require
 class App < Sinatra::Application
 
 	get '/' do
-		@color = Color.new.my_color
 		my_twitter = Twitter.new
 		@error = my_twitter.my_error
 		my_twitter.get_info
