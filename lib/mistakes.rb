@@ -27,6 +27,7 @@ class Mistake
 		"i'm smartt",
 		"in america we speak american",
 		"itiot",
+		"i'm a gril",
 		"mindgrain",
 		"my boyfiend",
 		"my girlfiend",
