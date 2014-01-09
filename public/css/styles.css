@@ -36,6 +36,10 @@ body {
   /*background-color: rgba(68, 90, 102, .89)*/
 }
 
+.search{
+  font-weight:bold;
+}
+
 .tweet {
     display: block;
     margin: 0 auto;
