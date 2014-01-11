@@ -2,12 +2,15 @@ class Twitter
 	attr_accessor :tweets, :urls, :tweeters, :my_url, :my_tweet, :my_error
 
 	def initialize
+		@tweeters = []
 		new_mistake = Mistake.new
-		my_scraper = Scraper.new(new_mistake.get_url)
 		@my_error = new_mistake.error
+		my_scraper = Scraper.new(new_mistake.get_url)
 		@tweets = my_scraper.get_tweets
 		@urls = my_scraper.get_urls
-		@tweeters = []
+		if @urls == nil
+			self.initialize
+		end
 	end
 
 	def make_directory
