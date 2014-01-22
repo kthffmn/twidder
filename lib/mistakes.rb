@@ -1,6 +1,12 @@
 class Mistake
 	attr_accessor :error
 	MISTAKES = [
+		"wreck clues",
+		"disyfer",
+		"wreck loose",
+		"handburger",
+		"bear of bad news",
+		"going threw",
 		"a moaron",
 		"a bidch",
 		"a touchedown",
@@ -24,6 +30,7 @@ class Mistake
 		"geniune",
 		"good can judge me",
 		"go to Standford",
+		"girls have low self of steam",
 		"harverd student",
 		"have no manors",
 		# "hight IQ",
@@ -78,6 +85,7 @@ class Mistake
 		"whats happending",
 		"wondering around the streets",
 		"ur a looser",
+		"u have low self of steam",
 		"wining team",
 		"we take for granite",
 		"you route for",
