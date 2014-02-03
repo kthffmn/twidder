@@ -2,6 +2,7 @@ class Mistake
 	attr_accessor :error
 	MISTAKES = [
 		"wreck clues",
+		"barren of bad",
 		"disyfer",
 		"wreck loose",
 		"handburger",
