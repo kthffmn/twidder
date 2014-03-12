@@ -1,6 +1,8 @@
 class Mistake
 	attr_accessor :error
 	MISTAKES = [
+		"legitimally",
+		"valid victorian",
 		"will be pooping bottles",
 		"wreck clues",
 		"barren of bad",
