@@ -36,6 +36,7 @@ class Mistake
 		"go to Standford",
 		"girls have low self of steam",
 		"harverd student",
+		"has bad high jean",
 		"have no manors",
 		# "hight IQ",
 		"hunny nut",
