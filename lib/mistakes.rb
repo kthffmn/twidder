@@ -72,6 +72,7 @@ class Mistake
 		"really good umbeyonce",
 		"sitty day",
 		"smell of good colon",
+		"so judge mantle",
 		"so wize",
 		"stoopid fag",
 		"thing for granite",
